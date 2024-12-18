@@ -15,6 +15,8 @@ public class BigOEx {
         System.out.println("---------");//O(1)
 
         printN3(10);//O(n3)
+
+        System.out.println("Added today");
     }
 
     //O(1)
