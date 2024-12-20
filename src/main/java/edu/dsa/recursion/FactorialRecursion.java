@@ -3,8 +3,13 @@ package edu.dsa.recursion;
 public class FactorialRecursion {
     public static void main(String[] args) {
         int n = 5;
-        int factorial = factorial5(n);
+        int factorial = factorial(n);
         System.out.println(factorial);
+
+        System.out.println("==========");
+
+        int factorialWithOutRecursion = factorial5(n);
+        System.out.println(factorialWithOutRecursion);
     }
 
 //    5*4*3*2*1
