@@ -18,16 +18,16 @@ public class Array2Ex {
 
         System.out.println("-------------");
 
-        int[] arr2 = new int[n];
+        int[] arr2 = new int[n];//O(n)
         int h = 10;
         //initialize the array
-        for(int i = 0; i < arr2.length; i++) {
+        for(int i = 0; i < arr2.length; i++) {//O(n)
             arr[i] = h;
             h = h+10;
         }
 
         //read the array
-        for(int i = 0; i < arr2.length; i++) {
+        for(int i = 0; i < arr2.length; i++) {//O(n)
             int value = arr[i];
             System.out.println(value);
         }
